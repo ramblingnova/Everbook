@@ -18,6 +18,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".FloatingActionButtonOptionActivity"
+            android:theme="@style/Theme.Transparent" />
+        <activity android:name=".InsertTextNoteActivity"></activity>
     </application>
 
 </manifest>

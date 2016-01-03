@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/side_menu_all_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="모든 노트" />
+
+    <TextView
+        android:id="@+id/side_menu_notebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/side_menu_all_note"
+        android:layout_marginTop="20dp"
+        android:text="노트북" />
+</RelativeLayout>
